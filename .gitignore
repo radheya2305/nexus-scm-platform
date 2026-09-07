@@ -1,0 +1,17 @@
+# Python virtual environment
+venv/
+.venv/
+env/
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS artifacts
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Streamlit local state
+.streamlit/secrets.toml

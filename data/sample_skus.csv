@@ -1,0 +1,9 @@
+sku_id,sku_name,category,unit_cost,annual_demand,demand_stdev_annual,supplier_lead_time_days,lead_time_stdev_days,current_on_hand,holding_cost_rate,min_order_qty
+SKU-101,Industrial Actuator Valve Assembly,A-X,450.00,12000,1400,45,6.5,1850,0.18,250
+SKU-102,High-Pressure Solenoid Controller,A-Y,320.00,8500,2100,55,9.0,1400,0.18,200
+SKU-103,Brewery Centrifugal Impeller,B-X,185.00,24000,2600,28,3.5,2900,0.16,500
+SKU-104,Microbrew Cold-Chain Sensor Module,B-Y,95.00,16500,4200,35,5.0,2100,0.16,400
+SKU-105,Titanium Fastener Spec-9 Bolt,C-X,12.50,150000,12000,60,8.0,32000,0.15,5000
+SKU-106,Avionics Wire Harness Connector,B-Z,210.00,3800,1850,75,14.0,980,0.20,150
+SKU-107,Hybrid Seed Coating Surfactant,A-Z,680.00,4200,2200,40,7.0,850,0.22,100
+SKU-108,Crop Nitrogen Release Capsule,C-Z,45.00,22000,8500,30,6.0,4200,0.15,1000

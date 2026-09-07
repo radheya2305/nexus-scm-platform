@@ -1,0 +1,5 @@
+corridor_id,origin,destination,mode,transit_time_days,lead_time_stdev_days,base_ocean_or_freight_per_unit,port_handling_drayage_per_unit,customs_tariff_rate,inventory_holding_wacc,carbon_kg_per_unit,reliability_score
+CHINA_MIDWEST,Shanghai (Port of LA to Chicago/Midwest),Ocean + Rail Intermodal,38,7.5,14.50,4.20,0.25,0.12,18.4,0.72
+MEXICO_MIDWEST,Monterrey (Laredo cross-dock to Chicago/Midwest),Cross-border Drayage + Dry Van,6,1.2,5.80,1.50,0.00,0.12,4.8,0.95
+VIETNAM_MIDWEST,Hai Phong (Port of Long Beach to Midwest),Ocean + Rail Intermodal,42,8.0,16.20,4.50,0.10,0.12,20.1,0.68
+US_DOMESTIC,Cleveland/Columbus to Midwest DC,Regional Truckload (TL),2,0.4,3.20,0.00,0.00,0.12,2.2,0.98

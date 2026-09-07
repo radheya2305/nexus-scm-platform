@@ -1,0 +1,128 @@
+{
+  "companies": {
+    "EMR": {
+      "name": "Emerson Electric Co.",
+      "ticker": "EMR",
+      "headquarters": "St. Louis, Missouri",
+      "industry": "Industrial Automation & Engineering",
+      "fiscal_year": 2024,
+      "metrics": {
+        "revenue_usd_m": 17500.0,
+        "cogs_usd_m": 8850.0,
+        "inventory_usd_m": 2150.0,
+        "raw_materials_m": 820.0,
+        "wip_m": 430.0,
+        "finished_goods_m": 900.0,
+        "accounts_receivable_usd_m": 3400.0,
+        "accounts_payable_usd_m": 2200.0,
+        "operating_cash_flow_usd_m": 3100.0,
+        "free_cash_flow_usd_m": 2650.0,
+        "wacc_percent": 8.5
+      },
+      "calculated_ratios": {
+        "dsi_days": 88.67,
+        "dso_days": 70.91,
+        "dpo_days": 90.73,
+        "ccc_days": 68.85
+      },
+      "executive_context": "Post-portfolio transformation focusing purely on automation technology. High inventory in European and Asian discrete manufacturing components. A reduction of 4 days in DSI would unlock ~$97M in working capital free cash flow without harming 98% customer OTIF.",
+      "target_executives": [
+        {"role": "VP, Global Supply Chain & Procurement", "name": "Global SCM Leadership"},
+        {"role": "Director of S&OP & Materials Management", "name": "Operations Strategy Lead"}
+      ]
+    },
+    "BUD": {
+      "name": "Anheuser-Busch InBev",
+      "ticker": "BUD",
+      "headquarters": "St. Louis, MO (North America Hub) / Leuven",
+      "industry": "Consumer Packaged Goods / Brewing",
+      "fiscal_year": 2024,
+      "metrics": {
+        "revenue_usd_m": 59380.0,
+        "cogs_usd_m": 27240.0,
+        "inventory_usd_m": 5680.0,
+        "raw_materials_m": 1950.0,
+        "wip_m": 610.0,
+        "finished_goods_m": 3120.0,
+        "accounts_receivable_usd_m": 5420.0,
+        "accounts_payable_usd_m": 15850.0,
+        "operating_cash_flow_usd_m": 14200.0,
+        "free_cash_flow_usd_m": 9800.0,
+        "wacc_percent": 7.8
+      },
+      "calculated_ratios": {
+        "dsi_days": 76.11,
+        "dso_days": 33.32,
+        "dpo_days": 212.38,
+        "ccc_days": -102.95
+      },
+      "executive_context": "AB InBev utilizes extreme negative working capital via extended DPO (212 days). However, finished goods inventory has spiked due to SKU proliferation in craft, seltzers, and non-alcoholic segments. Rationalizing the bottom 15% slow-moving SKUs (Z-tier) could reduce holding costs by $44M annually.",
+      "target_executives": [
+        {"role": "VP, Supply Logistics North America", "name": "NA Logistics VP"},
+        {"role": "Senior Director of Brewery Operations & S&OP", "name": "Brewery S&OP Director"}
+      ]
+    },
+    "BA": {
+      "name": "The Boeing Company",
+      "ticker": "BA",
+      "headquarters": "Arlington, VA / St. Louis (Defense & Space Hub)",
+      "industry": "Aerospace & Defense",
+      "fiscal_year": 2024,
+      "metrics": {
+        "revenue_usd_m": 66500.0,
+        "cogs_usd_m": 63200.0,
+        "inventory_usd_m": 78400.0,
+        "raw_materials_m": 12500.0,
+        "wip_m": 56800.0,
+        "finished_goods_m": 9100.0,
+        "accounts_receivable_usd_m": 9200.0,
+        "accounts_payable_usd_m": 13400.0,
+        "operating_cash_flow_usd_m": -2400.0,
+        "free_cash_flow_usd_m": -3800.0,
+        "wacc_percent": 9.2
+      },
+      "calculated_ratios": {
+        "dsi_days": 452.78,
+        "dso_days": 50.49,
+        "dpo_days": 77.40,
+        "ccc_days": 425.87
+      },
+      "executive_context": "Severe working capital drag caused by massive Work-In-Process ($56.8B) tied up in fuselage, wiring harness, and engine delays. Defense operations in St. Louis require high-reliability Tier-2 buffer stock. Pacing supplier delivery batches to actual assembly station cadence can compress WIP dwell times by 12 days ($2.08B cash release).",
+      "target_executives": [
+        {"role": "VP, Defense Global Supply Chain Operations", "name": "Defense Supply Chain VP"},
+        {"role": "Director, Supplier Management & Manufacturing Pacing", "name": "Supplier Management Director"}
+      ]
+    },
+    "BAYN": {
+      "name": "Bayer AG (Crop Science)",
+      "ticker": "BAYN",
+      "headquarters": "St. Louis, MO (Crop Science HQ) / Leverkusen",
+      "industry": "Agricultural Sciences & Seeds",
+      "fiscal_year": 2024,
+      "metrics": {
+        "revenue_usd_m": 47600.0,
+        "cogs_usd_m": 20100.0,
+        "inventory_usd_m": 12800.0,
+        "raw_materials_m": 3100.0,
+        "wip_m": 2900.0,
+        "finished_goods_m": 6800.0,
+        "accounts_receivable_usd_m": 9600.0,
+        "accounts_payable_usd_m": 7100.0,
+        "operating_cash_flow_usd_m": 5800.0,
+        "free_cash_flow_usd_m": 3200.0,
+        "wacc_percent": 8.0
+      },
+      "calculated_ratios": {
+        "dsi_days": 232.44,
+        "dso_days": 73.61,
+        "dpo_days": 128.93,
+        "ccc_days": 177.12
+      },
+      "executive_context": "High agricultural seasonality leads to extreme seed and chemical inventory build ahead of the North American planting season in Q1/Q2. Multi-echelon safety stock positioning between regional seed conditioning plants and field depots can cut obsolescence risk by 18%.",
+      "target_executives": [
+        {"role": "Head of Global Supply Chain, Crop Science", "name": "Crop Science SCM Head"},
+        {"role": "Director, Logistics & Distribution NA", "name": "NA Distribution Director"}
+      ]
+    }
+  }
+}
