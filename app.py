@@ -40,37 +40,42 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Custom CSS styling for executive appearance
+# Custom CSS styling for executive appearance (optimized for dark & light modes)
 st.markdown("""
 <style>
     .main-header {
         font-size: 2.2rem;
-        font-weight: 700;
-        color: #0F172A;
-        margin-bottom: 0.2rem;
+        font-weight: 800;
+        color: #FFFFFF !important;
+        margin-bottom: 0.3rem;
+        letter-spacing: -0.02em;
+        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
     }
     .sub-header {
         font-size: 1.05rem;
-        color: #475569;
+        color: #CBD5E1 !important;
         margin-bottom: 1.5rem;
+        font-weight: 400;
     }
     .metric-card {
-        background-color: #F8FAFC;
-        border: 1px solid #E2E8F0;
-        border-radius: 8px;
+        background: linear-gradient(135deg, #1E293B 0%, #0F172A 100%);
+        border: 1px solid #334155;
+        border-radius: 10px;
         padding: 16px;
         text-align: center;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.25);
     }
     .metric-val {
         font-size: 1.7rem;
         font-weight: 700;
-        color: #0284C7;
+        color: #38BDF8;
     }
     .metric-label {
         font-size: 0.85rem;
-        color: #64748B;
+        color: #94A3B8 !important;
         text-transform: uppercase;
-        letter-spacing: 0.05em;
+        letter-spacing: 0.06em;
+        font-weight: 600;
     }
     .badge-washu {
         background-color: #BA0C2F;
@@ -455,7 +460,7 @@ elif app_mode == "3. Corporate 10-K Working Capital Audit":
         <div class="metric-card" style="margin-top:15px; border-left: 4px solid #10B981;">
             <div class="metric-label">One-Time Free Cash Flow Unlocked</div>
             <div class="metric-val" style="color:#059669;">${sim_res['free_cash_flow_unlocked_usd_m']:,.1f}M</div>
-            <div style="font-size:0.85rem; color:#475569; margin-top:5px;">Direct liquidity injected to balance sheet</div>
+            <div style="font-size:0.85rem; color:#94A3B8; margin-top:5px;">Direct liquidity injected to balance sheet</div>
         </div>
         """, unsafe_allow_html=True)
 
@@ -463,7 +468,7 @@ elif app_mode == "3. Corporate 10-K Working Capital Audit":
         <div class="metric-card" style="margin-top:15px; border-left: 4px solid #3B82F6;">
             <div class="metric-label">Annual P&L Carrying Cost Savings</div>
             <div class="metric-val" style="color:#2563EB;">${sim_res['annual_holding_cost_savings_usd_m']:,.2f}M / yr</div>
-            <div style="font-size:0.85rem; color:#475569; margin-top:5px;">Based on {sim_res['wacc_percent']}% corporate WACC</div>
+            <div style="font-size:0.85rem; color:#94A3B8; margin-top:5px;">Based on {sim_res['wacc_percent']}% corporate WACC</div>
         </div>
         """, unsafe_allow_html=True)
 
